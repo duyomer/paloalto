@@ -10,9 +10,4 @@ Güvenlik duvarında "commit" işlemi yapar.
 wget --no-check-certificate "https://<PaloAltoFW_Mng_IP>/esp/restapi.esp?type=keygen&user=<PaloALto_user>&password=<PaloAlto_passwd>" --output-document=pan-key.xml
 pan-key.xml dosyasındaki API_KEY_NUMARASI not edilir
 
-.panrc dosyası oluşturulur:
-
-vi ~/.panrc
-# fw1
-hostname%fw1=<IP>
-api_key%fw1=<API_KEY_NUMARASI>
+panrc dosyası ~ altında oluşturulur.
