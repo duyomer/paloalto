@@ -1,0 +1,3 @@
+# fw1
+hostname%fw1=<FW_MNG_IP>
+api_key%fw1=<API_KEY_NUMARASI>
